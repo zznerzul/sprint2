@@ -1,0 +1,12 @@
+# Игнорируем скачанные датасеты и веса моделей
+data/
+*.pt
+*.pth
+.pth/
+checkpoint/
+
+# Игнорируем кэш Python и Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.virtualenv/
+venv/
